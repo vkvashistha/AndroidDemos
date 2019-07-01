@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComponentModule</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="component_fragment">Component fragment</string>
+    <string name="hello_blank_fragment_child">Component Child fragment</string>
+</resources>

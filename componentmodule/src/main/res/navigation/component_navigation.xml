@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/component_navigation"
+            app:startDestination="@id/componentFragment">
+
+    <fragment android:id="@+id/componentFragment" android:name="com.example.componentmodule.ComponentFragment"
+              android:label="fragment_component" tools:layout="@layout/fragment_component">
+        <action android:id="@+id/action_componentFragment_to_componentChildFragment"
+                app:destination="@id/componentChildFragment"/>
+    </fragment>
+    <fragment android:id="@+id/componentChildFragment" android:name="com.example.componentmodule.ComponentChildFragment"
+              android:label="fragment_component_child" tools:layout="@layout/fragment_component_child"/>
+</navigation>
